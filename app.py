@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import librosa
 import tensorflow as tf
-from streamlit_option_menu import option_menu  # type: ignore
+from streamlit_option_menu import option_menu  
 from streamlit_webrtc import webrtc_streamer, AudioProcessorBase, WebRtcMode
 
 # Load your pre-trained model
